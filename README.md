@@ -5,10 +5,10 @@ This project focuses on analyzing the financial and operational data of a health
 
 ## Contents 
 
-[Data Preparation]()
-[Features]()
-[Data Visualization]()
-[Data Insights]()
+- [Data Preparation](https://github.com/maiimamdooh/Medical-Health-Care-/blob/main/README.md#data-preparation)
+- [Features](https://github.com/maiimamdooh/Medical-Health-Care-/blob/main/README.md#features)
+- [Data Visualization](https://github.com/maiimamdooh/Medical-Health-Care-/blob/main/README.md#data-visualization-dashboard)
+- [Data Insights](https://github.com/maiimamdooh/Medical-Health-Care-/blob/main/README.md#data-insights)
 
 
 ## Data Preparation
