@@ -5,7 +5,7 @@ This project focuses on analyzing the financial and operational data of a health
 
 ## Data Preparation
 
-With a quick overview on the data found that cities table with wrong data as each city present in each state (such as London must be in England only not in Weels or Scottland also) So i handeled this with SQL as following [city cleaning]()
+With a quick overview on the data found that cities table with wrong data as each city present in each state (such as London must be in England only not in Weels or Scottland also) So i handeled this with SQL as following [city cleaning](https://github.com/maiimamdooh/Medical-Health-Care-/blob/main/city%20cleaing.sql)
 after that we should replace all citiy_id with only the right ones in Patients table so i did that with a dax function in power query which is :
 = Table.AddColumn(#"Changed Type", "City_id", each
 if List.Contains( {2,3,4}, [City ID]) then 1
@@ -18,7 +18,7 @@ else if List.Contains( {26,27,28}, [City ID]) then 25
 else if List.Contains( {30,31,32}, [City ID]) then 29 
 else if List.Contains( {34,35,36}, [City ID]) then 33 
 else if List.Contains( {38,39,40}, [City ID]) then 37 
-else [City ID])
+else [City ID]).
 
 -- now we get a new cities table with only 10 row and a new patients table with only the correct id
 -- other handling of the was with null value such as in Insurance Coverage => 0 and so on.
