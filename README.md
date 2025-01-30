@@ -10,7 +10,7 @@ after that we should replace all citiy_id with only the right ones in Patients t
 ![City id](https://github.com/user-attachments/assets/a92e36a6-c7b0-4936-b903-7e065244dfc5)
 
 
--- now we get a new cities table with only 10 row and a new patients table with only the correct id
+-- now we get a [new-cities-table](https://github.com/maiimamdooh/Medical-Health-Care-/blob/main/CITIY%20CLEANED.csv)  with only 10 row and a new patients table with only the correct id
 -- other handling of the was with null value such as in Insurance Coverage => 0 and so on.
 
  
