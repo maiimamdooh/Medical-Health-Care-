@@ -3,6 +3,14 @@
 ## Project Description
 This project focuses on analyzing the financial and operational data of a healthcare provider. The key metrics such as billing amounts, treatment costs. The project also covers patient data, including length of stay, visit types and their satisfaction rate. The goal is to offer actionable insights that can help improve financial efficiency and patient care outcomes.
 
+## Contents 
+
+[Data Preparation]()
+[Features]()
+[Data Visualization]()
+[Data Insights]()
+
+
 ## Data Preparation
 
 With a quick overview on the data found that cities table with wrong data as each city present in each state (such as London must be in England only not in Weels or Scottland also) like this
